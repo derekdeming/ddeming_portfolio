@@ -89,3 +89,15 @@ export default function Home() {
     </>
   );
 }
+
+
+
+What are companies concerned about when trying decided to adopt AI (LLMs) into their organization ? 
+
+From many customer discoveries and conversations with professionals in the field, many companies put security at the forefront of their concern. We have seen OpenAI push for their in enterprise-grade security & privacy ChatGPT collaboration ensuring companies their data will be protected and encrypted, customer prompts and data will not be used to train models, and is SOC 2 compliant. Yet, many companies are still apprehensive to adopt their solution. I wonder how things would have played out if OpenAI was truly open and remained open-source...? 
+
+I digress... companies are concerned with security and privacy. They want control over their data, they don't want data leaving their ecosystem, and they want these systems to run on their servers. Sure, there will be few companies that couldn't care less about this because their data in not sensative but for the majority, security is of the utmost importance. 
+
+Creating production ready LLMs solutions that provide companies with this type of control is difficult but not impossible. It may be worth wild diving deeper into what a production ready solution looks like from an open-source standpoint. This would allow companies to adopt AI into their organization while providing complete control and ease of mind over their data. 
+
+It may be worth going into a series of 
