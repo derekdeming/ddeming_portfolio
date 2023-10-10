@@ -33,7 +33,7 @@ const Education = () => {
   return (
     <div className='my-64'>
         <h2 className='font-bold text-8xl mb-32 w-full text-center'>
-            Experience
+            Education
         </h2>
 
         <div ref={ref} className='w-[75%] mx-auto relative'>
@@ -58,7 +58,7 @@ const Education = () => {
                     type="Online Courses and Certifications"
                     time="Always Learning"
                     place="MIT, Harvard, Databricks Academy, Udemy, Coursera, and more"
-                    info="Completed coursework in advanced topics such as Computer Science Data Structure and Algorithms, Reinforcement Learning, Natural Language Processing, Pytorch for Deep Learning, Computer Vision, and Machine Learning Engineering. Certifications include: AWS Certified Deverloper Associate, Databricks Lakehouse Platform Fundamentals, AWS Databricks Platform Architect, AWS Databricks Networking and Security Fundamentals, Technical Sales: Sales Engineer."
+                    info="Completed coursework in advanced topics such as MIT 6.5940 TinyML and Efficient Deep Learning Computing, Computer Science Data Structure and Algorithms, Reinforcement Learning, Natural Language Processing, Pytorch for Deep Learning, Computer Vision, and Machine Learning Engineering. Certifications include: AWS Certified Deverloper Associate, Databricks Lakehouse Platform Fundamentals, AWS Databricks Platform Architect, AWS Databricks Networking and Security Fundamentals, Technical Sales: Sales Engineer."
                 />
             </ul>
         </div>
