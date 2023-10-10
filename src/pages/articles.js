@@ -9,15 +9,15 @@ import article2 from "../../public/images/articles/create loading screen in reac
 import { motion } from 'framer-motion'
 
 
-const FramerImage = motion(Image)
+const FramerImage = motion(Image);
 
 const FeaturedArticle = ({img, title, time, summary, link}) => {
     
     return(
         <li className='col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl'>
-            <Link href={link} target='_blank' className='w-full incline-block cursor-pointer overflow-hidden rounded-lg '>
-                <FramerImage src={img} alt={title} className='w-full h-auto'
-                    whileHover={{sclae:1.25}}
+            <Link href={link} target='_blank' className='w-full inline-block cursor-pointer overflow-hidden rounded-lg '>
+                <FramerImage src={img} alt={title} className="w-full h-auto"
+                    whileHover={{scale:1.05}}
                     transition={{duration:0.2}}
                 />
             </Link>
