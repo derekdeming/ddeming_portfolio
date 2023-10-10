@@ -3,12 +3,10 @@ import React from 'react'
 import Logo from './Logo'
 import { useRouter } from "next/router";
 import {
-    DribbbleIcon,
     GithubIcon,
     LinkedInIcon,
-    MoonIcon,
-    PinterestIcon,
-    SunIcon,
+    // MoonIcon, -- meant for dark mode... too lazy 
+    // SunIcon, -- meant for dark mode... too lazy 
     TwitterIcon,
   } from "./Icons";
   import { motion } from "framer-motion";
@@ -18,13 +16,13 @@ const CustomLink = ({ href, title, className = "" }) => {
     const router = useRouter();
   
     return (
-      <Link href={href} className={`${className}  rounded relative group lg:text-light lg:dark:text-dark`}>
+      <Link href={href} className={`${className} relative group`}>
         {title}
         <span
           className={`
                 inline-block h-[1px]  bg-dark absolute left-0 -bottom-0.5 
                 group-hover:w-full transition-[width] ease duration-300 dark:bg-light
-                ${router.asPath === href ? "w-full" : " w-0"} lg:bg-light lg:dark:bg-dark
+                ${router.asPath === href ? "w-full" : " w-0"} 
                 `}
         >
           &nbsp;
@@ -32,6 +30,8 @@ const CustomLink = ({ href, title, className = "" }) => {
       </Link>
     );
   };
+
+
 const NavBar = () => {
   return (
     <header className='w-full px-32 py-8 font-medium flex items-center justify-between'>
@@ -79,7 +79,7 @@ const NavBar = () => {
             <Logo />
         </div>
     </header>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
